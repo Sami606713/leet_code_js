@@ -18,12 +18,9 @@ for (let i = 0; i < arr.length; i++) {
     // console.log(arr[i]);
     let complement=target-arr[i]
     console.log(complement);
-    if(complement in dic){
+    if(dic[complement]){
         console.log([dic[complement]+1,i+1]);
     }else{
         dic[arr[i]]=i
-    }
-
-
-    
+    }    
 }
