@@ -7,4 +7,4 @@ function sum_natural(nbr) {
 }
 let nbr=5
 console.log(sum_natural(nbr));
-// 1+2+3+4+5=15
+// 1+2+3+4+5=15git
